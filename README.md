@@ -38,20 +38,6 @@ interactive-navbar/
 - **CSS3** – for styling, hover effects, and animations  
 - **JavaScript (ES6)** – for scroll detection and active link highlight  
 
----
-
-## 📸 Screenshots  
-
-### Default Navbar  
-*(before scrolling)*  
-![Navbar Default](https://via.placeholder.com/800x200?text=Default+Navbar)  
-
-### Scrolled Navbar  
-*(after scrolling)*  
-![Navbar Scrolled](https://via.placeholder.com/800x200?text=Scrolled+Navbar)  
-
----
-
 ## ⚡ How to Run Locally  
 
 1. Clone this repository  
