@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
   }
 
   let current = "";
-  sections.forEach(section => {
+  sections.forEach((section) => {
     const sectionTop = section.offsetTop - 70;
     const sectionHeight = section.clientHeight;
     if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
@@ -21,7 +21,7 @@ window.addEventListener("scroll", () => {
     }
   });
 
-  navLinks.forEach(link => {
+  navLinks.forEach((link) => {
     link.classList.remove("active");
     if (link.getAttribute("href") === "#" + current) {
       link.classList.add("active");
@@ -38,7 +38,7 @@ hamburger.addEventListener("click", () => {
 const reveals = document.querySelectorAll(".fade-in, .slide-up");
 
 window.addEventListener("scroll", () => {
-  reveals.forEach(el => {
+  reveals.forEach((el) => {
     const rect = el.getBoundingClientRect();
     if (rect.top < window.innerHeight - 100) {
       el.classList.add("visible");
